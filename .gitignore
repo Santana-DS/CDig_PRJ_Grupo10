@@ -1,0 +1,32 @@
+# MATLAB/Simulink generated files
+slprj/
+.matlab_pref/
+*.slxc
+*.autosave
+*.asv
+*.m~
+
+# PlatformIO build and editor state
+.pio/
+.vscode/
+
+# Python caches and temporary collections
+__pycache__/
+*.py[cod]
+*.partial.csv
+*_PARCIAL_*.csv
+*_RESET_*.csv
+
+# LaTeX generated files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# OS/editor files
+.DS_Store
+Thumbs.db

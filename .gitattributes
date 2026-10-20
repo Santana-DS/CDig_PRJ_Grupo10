@@ -1,0 +1,14 @@
+* text=auto
+
+*.m text eol=lf
+*.py text eol=lf
+*.cpp text eol=lf
+*.md text eol=lf
+*.ini text eol=lf
+*.csv text eol=lf
+
+*.slx binary
+*.mat binary
+*.pdf binary
+*.png binary
+*.jpg binary
