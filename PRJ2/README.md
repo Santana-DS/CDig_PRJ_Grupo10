@@ -1,5 +1,16 @@
 # PRJ2 - Controle discreto com rejeição de perturbações
 
+## Resultado em destaque
+
+O ensaio final de uma hora mostra a referência e a saída, a temperatura
+ambiente, o PWM do cooler, o comando aplicado e a contribuição do observador
+senoidal. O controle escalonado suavizou a resposta sob ventilação e preservou
+o seguimento nos regimes nominal e perturbado.
+
+![Ensaio final com perturbações constante e senoidal](resultados/figuras/11_ensaio_final_1h.png)
+
+**Material:** [relatório do PRJ2](relatorio/CDig_Relatorio_Grupo10_PRJ2.pdf?raw=1).
+
 ## Fluxo principal
 
 Adicione `matlab/projeto` ao caminho do MATLAB e execute:

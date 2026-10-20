@@ -4,6 +4,31 @@ Repositório dos projetos PRJ1 e PRJ2 da disciplina ENE0167 - Controle
 Digital. O material reúne projeto de controle, firmware da ESP32, modelos
 Simulink, dados experimentais e resultados congelados.
 
+## Visão geral
+
+<p align="center">
+  <img src="PRJ2/resultados/figuras/00_bancada.jpg" width="620" alt="Bancada térmica com ESP32, aquecedor, sensores LM35 e cooler">
+</p>
+
+A mesma bancada térmica foi usada nos dois projetos. O PRJ1 concentrou-se na
+identificação P2DZ e no PI discreto com anti-windup; o PRJ2 acrescentou os
+observadores de perturbação e o escalonamento entre os regimes nominal e
+ventilado.
+
+### PRJ1 - identificação da planta
+
+O modelo P2DZ alcançou ajuste de validação de 93,8% em dados independentes.
+
+![Validação independente do modelo P2DZ](PRJ1/resultados/figuras/01.Fit_Identificacao_P2DZ.png)
+
+### PRJ2 - controle discreto sob perturbação
+
+O ensaio final de uma hora reúne seguimento de referência, temperatura
+ambiente, perturbações constante e senoidal, comando aplicado e compensação do
+observador.
+
+![Ensaio final do controle discreto](PRJ2/resultados/figuras/11_ensaio_final_1h.png)
+
 ## Organização
 
 - `PRJ1/`: identificação P2DZ, projeto PI contínuo/discreto e anti-windup.

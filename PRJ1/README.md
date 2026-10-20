@@ -1,5 +1,19 @@
 # PRJ1 - Identificação e controle PI discreto
 
+## Resultado em destaque
+
+O modelo incremental P2DZ obteve 93,8% de ajuste na validação independente e
+serviu de base para os projetos PI contínuo e discreto.
+
+![Validação independente do modelo P2DZ](resultados/figuras/01.Fit_Identificacao_P2DZ.png)
+
+O ensaio em malha fechada abaixo compara a realização com e sem anti-windup no
+roteiro completo de referências e perturbações.
+
+![Comparação experimental com e sem anti-windup](resultados/figuras/09_COMPARACAO_n.png)
+
+**Material:** [relatório do PRJ1](relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf?raw=1).
+
 ## Fluxo principal
 
 Execute em `matlab/projeto`, nesta ordem:
