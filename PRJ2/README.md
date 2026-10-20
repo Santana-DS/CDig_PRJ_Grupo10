@@ -1,5 +1,7 @@
 # PRJ2 - Controle discreto com rejeição de perturbações
 
+**[Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ2/relatorio/CDig_Relatorio_Grupo10_PRJ2.pdf) · [Vídeo - inserir URL](https://www.youtube.com/)**
+
 ## Resultado em destaque
 
 O ensaio final de uma hora mostra a referência e a saída, a temperatura
@@ -8,8 +10,6 @@ senoidal. O controle escalonado suavizou a resposta sob ventilação e preservou
 o seguimento nos regimes nominal e perturbado.
 
 ![Ensaio final com perturbações constante e senoidal](resultados/figuras/11_ensaio_final_1h.png)
-
-**Material:** [relatório do PRJ2](relatorio/CDig_Relatorio_Grupo10_PRJ2.pdf?raw=1).
 
 ## Fluxo principal
 

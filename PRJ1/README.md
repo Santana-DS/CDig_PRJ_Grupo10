@@ -1,5 +1,7 @@
 # PRJ1 - Identificação e controle PI discreto
 
+**[Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ1/relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf) · [Vídeo - inserir URL](https://www.youtube.com/)**
+
 ## Resultado em destaque
 
 O modelo incremental P2DZ obteve 93,8% de ajuste na validação independente e
@@ -11,8 +13,6 @@ O ensaio em malha fechada abaixo compara a realização com e sem anti-windup no
 roteiro completo de referências e perturbações.
 
 ![Comparação experimental com e sem anti-windup](resultados/figuras/09_COMPARACAO_n.png)
-
-**Material:** [relatório do PRJ1](relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf?raw=1).
 
 ## Fluxo principal
 
