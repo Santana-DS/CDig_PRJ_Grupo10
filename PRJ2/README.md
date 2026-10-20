@@ -18,13 +18,17 @@ saídas ficam em subpastas temáticas de `resultados`.
 
 ## Material complementar reprodutível
 
+Esta pasta é opcional para a avaliação. O projeto solicitado está integralmente
+apresentado em `matlab/projeto`; os arquivos abaixo apenas permitem auditar os
+ensaios e regenerar resultados do relatório.
+
 `matlab/reproducao` contém:
 
 - validação numérica e no Simulink;
 - análise de sensibilidade paramétrica;
 - coletores e análises dos ensaios nominal, ventilado e refinado;
 - comparação multimodelo e transferência sem tranco;
-- geração das figuras finais e do modelo expandido.
+- geração das figuras finais.
 
 Esses scripts não são etapas adicionais do roteiro: são a trilha de validação
 que sustenta as decisões apresentadas no relatório.

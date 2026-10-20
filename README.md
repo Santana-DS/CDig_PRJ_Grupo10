@@ -9,9 +9,11 @@ Simulink, dados experimentais e resultados congelados.
 - `PRJ1/`: identificação P2DZ, projeto PI contínuo/discreto e anti-windup.
 - `PRJ2/`: observadores, análise de sensibilidade, identificação sob
   convecção forçada e controle discreto escalonado.
-- Em cada projeto, `matlab/projeto` contém o fluxo didático principal.
-- `matlab/reproducao` contém coleta, verificações complementares e geração de
-  figuras. Esses arquivos documentam a engenharia sem poluir o fluxo avaliado.
+- Em cada projeto, `matlab/projeto` contém a entrega principal e deve ser o
+  ponto de partida da avaliação.
+- `matlab/reproducao` é um anexo técnico opcional, com coleta, verificações e
+  geração de figuras. Ele não acrescenta etapas ao roteiro nem substitui os
+  fundamentos apresentados em `matlab/projeto`.
 - `dados` e `resultados` preservam as coletas e saídas necessárias para
   reproduzir as análises sem repetir os ensaios físicos.
 
@@ -31,3 +33,11 @@ A porta serial está configurada como `COM3` nos coletores e pode ser alterada
 no início do respectivo arquivo quando a enumeração do sistema for diferente.
 
 Consulte os README de cada projeto para a ordem de execução.
+
+## Relatórios
+
+- [Relatório do PRJ1](PRJ1/relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf?raw=1)
+- [Relatório do PRJ2](PRJ2/relatorio/CDig_Relatorio_Grupo10_PRJ2.pdf?raw=1)
+
+Os links usam a visualização bruta para contornar eventuais falhas do
+pré-visualizador de PDF do GitHub.
