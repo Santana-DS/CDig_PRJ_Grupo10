@@ -35,6 +35,10 @@ O ensaio final de uma hora reúne seguimento de referência, temperatura
 ambiente, perturbações constante e senoidal, comando aplicado e compensação do
 observador.
 
+A realização modular no Simulink está documentada em uma
+[visão vetorial expandida](PRJ2/simulink/documentacao/modelo_discreto_expandido.pdf)
+e em um [detalhamento dos seis subsistemas](PRJ2/simulink/documentacao/modelo_discreto_subsistemas.pdf).
+
 ![Ensaio final do controle discreto](PRJ2/resultados/figuras/11_ensaio_final_1h.png)
 
 ## Organização

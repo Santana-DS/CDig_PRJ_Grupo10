@@ -2,6 +2,18 @@
 
 **[Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ2/relatorio/CDig_Relatorio_Grupo10_PRJ2.pdf) · [Vídeo - inserir URL](https://www.youtube.com/)**
 
+## Modelo Simulink modular
+
+A realização discreta foi organizada em seis subsistemas: cenário, ponto de
+operação, processo térmico ZOH, controlador PI com anti-windup, observadores e
+instrumentação. A separação mantém explícitos o atraso, os estados estimados e
+as trajetórias dos sinais.
+
+![Modelo discreto expandido](resultados/figuras/modelo_discreto_expandido.png)
+
+Documentação vetorial: [visão expandida em uma página](simulink/documentacao/modelo_discreto_expandido.pdf) ·
+[modelo e subsistemas em sete páginas](simulink/documentacao/modelo_discreto_subsistemas.pdf).
+
 ## Resultado em destaque
 
 O ensaio final de uma hora mostra a referência e a saída, a temperatura
