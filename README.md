@@ -2,7 +2,7 @@
 
 Repositório dos projetos PRJ1 e PRJ2 da disciplina ENE0167 - Controle
 Digital. O material reúne projeto de controle, firmware da ESP32, modelos
-Simulink, dados experimentais e resultados congelados.
+Simulink, dados experimentais e resultados.
 
 **PRJ1:** [Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ1/relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf) · [Vídeo - inserir URL](https://www.youtube.com/)<br>
 **PRJ2:** [Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ2/relatorio/CDig_Relatorio_Grupo10_PRJ2.pdf) · [Vídeo - inserir URL](https://www.youtube.com/)
