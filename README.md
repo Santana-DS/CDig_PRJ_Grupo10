@@ -24,6 +24,11 @@ O modelo P2DZ alcançou ajuste de validação de 93,8% em dados independentes.
 
 ![Validação independente do modelo P2DZ](PRJ1/resultados/figuras/01.Fit_Identificacao_P2DZ.png)
 
+O ensaio experimental evidencia o efeito do anti-windup no controle PI
+discreto durante o roteiro completo de referências e perturbações.
+
+![Comparação experimental com e sem anti-windup](PRJ1/resultados/figuras/09_COMPARACAO_n.png)
+
 ### PRJ2 - controle discreto sob perturbação
 
 O ensaio final de uma hora reúne seguimento de referência, temperatura
