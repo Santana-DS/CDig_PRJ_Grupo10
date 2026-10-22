@@ -1,6 +1,6 @@
 # PRJ1 - Identificação e controle PI discreto
 
-**[Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ1/relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf) · [Vídeo - inserir URL](https://www.youtube.com/)**
+**[Relatório](https://raw.githubusercontent.com/Santana-DS/CDig_PRJ_Grupo10/main/PRJ1/relatorio/CDig_Relatorio_Grupo10_PRJ1.pdf) · [Vídeo](https://youtu.be/_QcQK_qNOyg)**
 
 ## Resultado em destaque
 
