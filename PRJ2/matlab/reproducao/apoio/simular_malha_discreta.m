@@ -18,8 +18,8 @@ sControle = load(fullfile(artefatos, 'controlador_discreto.mat'), ...
     'controle');
 d = sModelo.discreto;
 c = sControle.controle;
-sPlanta = load(d.modeloOrigem, 'resultado');
-sContinuo = load(d.projetoOrigem, 'projeto');
+sPlanta = load(fullfile(artefatos, 'planta_p2dz.mat'), 'resultado');
+sContinuo = load(fullfile(artefatos, 'projeto_continuo.mat'), 'projeto');
 h = sPlanta.resultado.parametros;
 u0 = sPlanta.resultado.u0;
 y0 = sPlanta.resultado.y0;
@@ -74,9 +74,9 @@ for k = 1:n
         d.Ld*inovacao(k);
     erroProximo = r-(y0+d.Cd*xProximo);  % Referência mantida no intervalo.
     if usarAW
-        xi = atualizar_integrador_aw(xi, erroProximo, erro, ...
-            uLivre(k), uAplicado(k), c.Ki, Ts, ...
-            d.integrador.tempoRastreamentoInicial);
+        Tt = d.integrador.tempoRastreamentoInicial;
+        xi = xi + Ts/2*(erro + erroProximo) + ...
+            Ts/(c.Ki*Tt)*(uAplicado(k) - uLivre(k));
     else
         xi = xi + Ts/2*(erro + erroProximo);
     end

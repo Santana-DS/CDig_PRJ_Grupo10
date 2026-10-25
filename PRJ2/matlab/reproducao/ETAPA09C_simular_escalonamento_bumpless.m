@@ -156,7 +156,7 @@ k=find(y>=nivel,1,'first');
 if isempty(k)||k==1,tc=Inf;else,tc=interp1(y(k-1:k),t(k-1:k),nivel);end
 end
 
-function plotar(r,pasta)
+function plotar(r,saida)
 f=figure('Visible','off','Color','w','Position',[50 50 2200 1150]);
 tiledlayout(numel(r.casos),numel(r.estrategias),'TileSpacing','compact','Padding','compact');
 for c=1:numel(r.casos)

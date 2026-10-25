@@ -158,7 +158,7 @@ if isempty(k) || k==1, tc=Inf; return; end
 tc=interp1(y(k-1:k),t(k-1:k),nivel);
 end
 
-function plotar(r,pasta)
+function plotar(r,saida)
 f=figure('Visible','off','Color','w','Position',[100 100 1450 850]);
 tiledlayout(2,1,'TileSpacing','compact','Padding','compact');
 for p=1:2

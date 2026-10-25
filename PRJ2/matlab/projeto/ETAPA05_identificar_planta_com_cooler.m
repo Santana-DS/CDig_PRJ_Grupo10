@@ -180,7 +180,7 @@ for lag = 1:nLag
 end
 end
 
-function gerarFiguras(T,P,nEst,nVal,y0,yVal,pred,resid,nomes,idxSel,pasta)
+function gerarFiguras(T,P,nEst,nVal,y0,yVal,pred,resid,nomes,idxSel,pastaSaida)
 f = figure('Visible','off','Color','w','Position',[100 100 1400 850]);
 tiledlayout(3,1,'TileSpacing','compact','Padding','compact');
 nexttile; plot(T.t,T.Y,'LineWidth',1.1); hold on; plot(T.t,T.R,'--');
