@@ -26,4 +26,13 @@ KP = 1900;
 KI = 47.5;
 C = KP*(s+KI/KP)/s;
 
-sisotool(G, C);
+if usejava('desktop')
+    sisotool(G, C);
+else
+    % Em execucao automatica, o atraso e aproximado apenas para exibir o LGR.
+    % O modelo P2DZ original permanece inalterado nas etapas seguintes.
+    Gp = pade(G, 1);
+    f = figure('Visible', 'off');
+    rlocus(C*Gp); grid on;
+    close(f);
+end
